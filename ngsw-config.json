@@ -11,11 +11,16 @@
           "/index.html",
           "/manifest.webmanifest",
           "/*.css",
-          "/*.js",
-          "/**/triangle.svg",
-          "/**/ellipse.svg",
-          "/**/square.svg"
+          "/*.js"
         ]
+      }
+    },
+
+    {
+      "name": "ionicons",
+      "installMode": "prefetch",
+      "resources": {
+        "files": ["/**/*.svg"]
       }
     },
     {
